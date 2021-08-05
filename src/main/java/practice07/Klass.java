@@ -13,14 +13,16 @@ public class Klass {
     public Klass(int num) {
         this.num = num;
     }
+
     public int getNumber() {
         return num;
     }
+
     public String getDisplayName() {
         return MessageFormat.format("Class {0}", num);
     }
 
-    public void assignLeader(Student student){
+    public void assignLeader(Student student) {
         this.leader = student;
     }
 }
