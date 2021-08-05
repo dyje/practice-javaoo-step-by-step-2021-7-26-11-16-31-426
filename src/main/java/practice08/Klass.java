@@ -35,4 +35,8 @@ public class Klass {
             System.out.print("It is not one of us.\n");
         }
     }
+
+    public void appendMember(Student member) {
+        students.add(member);
+    }
 }
