@@ -4,11 +4,11 @@ import java.text.MessageFormat;
 
 public class Klass {
     private final int num;
+    private Student leader;
 
     public Student getLeader() {
         return leader;
     }
-    private Student leader;
 
     public Klass(int num) {
         this.num = num;
