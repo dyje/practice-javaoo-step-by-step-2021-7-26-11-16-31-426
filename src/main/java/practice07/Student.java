@@ -1,7 +1,5 @@
 package practice07;
 
-import java.text.MessageFormat;
-
 public class Student extends Person {
     private Klass klass;
 
